@@ -1,0 +1,94 @@
+-- CREATE TABLE Employee (
+--     Id INT PRIMARY KEY,
+--     Name VARCHAR(50),
+-- 	Age INT ,
+-- 	Address VARCHAR (50)
+-- );
+
+-- INSERT INTO Employee (Id, Name, Age,Address) 
+-- VALUES
+-- (1001, 'Rohan',26, 'Delhi'),
+-- (1002, 'Ankit', 30,'Gurgaon'),
+-- (1003, 'Gaurav',27, 'Mumbai'),
+-- (1004, 'Raja', 32, 'Nagpur');
+-- SELECT * FROM Employee;
+
+-- SELECT* 
+-- FROM Employee
+-- WHERE Id = '1004';
+
+-- SELECT *
+-- FROM Employee;
+
+-- SELECT * FROM Employee
+-- WHERE Name LIKE 'R%';
+ 
+-- SELECT
+-- Id,
+-- Name,
+-- Age
+-- FROM Employee
+-- ORDER BY
+-- Age ASC ;
+ 
+-- SELECT
+-- Id,
+-- Name,
+-- Age
+-- FROM Employee
+-- ORDER BY
+-- Age DESC ;
+
+SELECT DISTINCT Address
+FROM Employee;
+
+
+
+
+-- CREATE TABLE Employee (
+--     Id INT PRIMARY KEY,
+--     Name VARCHAR(50),
+-- 	Age INT ,
+-- 	Address VARCHAR (50)
+-- );
+
+-- INSERT INTO Employee (Id, Name, Age,Address) 
+-- VALUES
+-- (1001, 'Rohan',26, 'Delhi'),
+-- (1002, 'Ankit', 30,'Gurgaon'),
+-- (1003, 'Gaurav',27, 'Mumbai'),
+-- (1004, 'Raja', 32, 'Nagpur');
+-- SELECT * FROM Employee;
+
+-- SELECT* 
+-- FROM Employee
+-- WHERE Id = '1004';
+
+-- SELECT *
+-- FROM Employee;
+
+-- SELECT * FROM Employee
+-- WHERE Name LIKE 'R%';
+ 
+-- SELECT
+-- Id,
+-- Name,
+-- Age
+-- FROM Employee
+-- ORDER BY
+-- Age ASC ;
+ 
+-- SELECT
+-- Id,
+-- Name,
+-- Age
+-- FROM Employee
+-- ORDER BY
+-- Age DESC ;
+
+SELECT DISTINCT Address
+FROM Employee;
+
+
+
+

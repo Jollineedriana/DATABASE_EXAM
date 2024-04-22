@@ -1,0 +1,47 @@
+-- CREATE TABLE STUDENNTS (
+--     Sno VARCHAR(10),
+--     Sname VARCHAR(50),
+--     SGPA DECIMAL(4, 2),
+--     Scity VARCHAR(50),
+--     Cno VARCHAR(10)
+-- );
+ 
+-- INSERT INTO STUDENNTS (Sno, Sname, SGPA, Scity, Cno) VALUES
+-- ('S1', 'Saman', 2.60, 'Kagalle', 'C1'),
+-- ('S2', 'Kamal', 2.45, 'Kandy', 'C2'),
+-- ('S3', 'Joe', 3.20, 'Galle', 'C3'),
+-- ('S4', 'Ruwan', 4.00, 'Kandy', 'C1'),
+-- ('S5', 'Asela', 3.50, 'Jaffina', 'C4'),
+-- ('S6', 'Asanka', 2.88, 'Galle', 'C2'),
+-- ('S7', 'Wasana', 2.75, 'Colombo', 'C3'),
+-- ('S8', 'Dilini', 3.35, 'Kandy', 'C1'),
+-- ('S9', 'Aruna', 2.76, 'Galle', 'C4'),
+-- ('S10', 'Gayani', 3.00, 'Jaffna', 'C4');
+-- SELECT *FROM STUDENNTS;
+
+--  CREATE TABLE Course (
+--     Cno VARCHAR(10),
+--     Cname VARCHAR(50),
+--     Cduration INT
+-- );
+
+-- INSERT INTO Course (Cno, Cname, Cduration) VALUES
+-- ('C1', 'HNDA', 4),
+-- ('C2', 'HNDIT', 2),
+-- ('C3', 'HNDM', 3),
+-- ('C4', 'HNDE', 2);
+-- SELECT * FROM Course;
+
+-- SELECT Sname
+-- FROM STUDENNTS
+-- WHERE SGPA > 3.00;
+
+-- SELECT Cno, COUNT(*) AS Num_of_Students
+-- FROM STUDENNTS
+-- GROUP BY Cno;
+
+
+ SELECT S.Sname, S.SGPA, C.Cname
+FROM STUDENNTS AS S
+JOIN courses AS C ON S.Cno = C.Cno;
+
